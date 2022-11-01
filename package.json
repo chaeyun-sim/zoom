@@ -1,0 +1,27 @@
+{
+  "name": "zoom",
+  "version": "1.0.0",
+  "description": "Zoom Clone coding using WebRTC and Websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/node": "^7.20.0",
+    "@babel/preset-env": "^7.19.4",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.18.2",
+    "node": "^19.0.0",
+    "pug": "^3.0.2",
+    "ws": "^8.10.0"
+  }
+}
